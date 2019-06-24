@@ -1,0 +1,30 @@
+.person--card {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  height: 200px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.person__name {
+  color: magenta;
+}
+
+.person__quote {
+  font-style: italic;
+}
+
+.person__superlative {
+  color: turquoise;
+  font-weight: bold;
+}
+
