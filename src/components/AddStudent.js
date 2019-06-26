@@ -15,6 +15,7 @@ class AddStudent extends Component {
   handleChange = (event) => {
     this.setState({ [event.target.name]: event.target.value })
   }
+
   submitNewStudent = event => {
     event.preventDefault()
     const newStudent = {id: Date.now(), ...this.state}
@@ -30,6 +31,7 @@ class AddStudent extends Component {
     return (
       <section className='form--container'>
         <form className="form">
+          <h1>Add a person!</h1>
           <input 
             type = 'text'
             placeholder = 'Name'
@@ -52,7 +54,7 @@ class AddStudent extends Component {
             onChange = {this.handleChange}
           />
         </form>
-        <button onClick = {this.submitNewStudent}>Add Student</button>
+        <button onClick = {this.submitNewStudent}>Add Person</button>
       </section>
     )
   }
