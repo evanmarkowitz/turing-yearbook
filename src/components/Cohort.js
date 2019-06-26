@@ -8,7 +8,7 @@ const Cohort = props => {
     })
   return (
     <div className='cohort'>
-      <h2>{props.title}</h2>
+      <h2 className="cohort__title">{props.title}</h2>
       <div className= "cohort--card--container">
         {showPerson}
       </div>
