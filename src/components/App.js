@@ -39,7 +39,7 @@ class App extends Component {
         <Cohort data={this.state.students} />
       </div>
     );
-    console.log(this.state.staff)
+    
     return (
       <div className="App">
         <header className="App-header">

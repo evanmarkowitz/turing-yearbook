@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cohort should match the snapshot with all data passed in correctly 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <h1>
+        Turing Yearbook
+      </h1>
+    </header>
+    <button
+      button={true}
+      onClick={[Function]}
+    >
+      Add Person
+    </button>
+    <BrowserRouter>
+      <Router
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+      >
+        <Link
+          component={[Function]}
+          to=""
+        >
+          <a
+            component={[Function]}
+            href="/"
+            onClick={[Function]}
+          />
+        </Link>
+        <Link
+          className="togglePerson"
+          to="/staff"
+        >
+          <a
+            className="togglePerson"
+            href="/staff"
+            onClick={[Function]}
+          >
+            <span>
+              Staff
+            </span>
+          </a>
+        </Link>
+         |
+        <Link
+          to="/students"
+        >
+          <a
+            href="/students"
+            onClick={[Function]}
+          >
+            <span>
+              Students
+            </span>
+          </a>
+        </Link>
+        <Route
+          component={[Function]}
+          path="/staff"
+        />
+        <Route
+          component={[Function]}
+          path="/students"
+        />
+      </Router>
+    </BrowserRouter>
+  </div>
+</App>
+`;

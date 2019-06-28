@@ -1,3 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Person should match the snapshot with all data passed in correctly 1`] = `ReactWrapper {}`;
+exports[`Person should match the snapshot with all data passed in correctly 1`] = `
+<Cohort
+  data={
+    Array [
+      Object {
+        "id": 2,
+        "name": "Amy",
+        "photo": "./amy.jpg",
+        "quote": "I believe in you, cuties!",
+        "superlative": "Most Likely to Be an Actual Superhero",
+      },
+    ]
+  }
+>
+  <div
+    className="cohort"
+  >
+    <h2
+      className="cohort__title"
+    />
+    <div
+      className="cohort--card--container"
+    >
+      <Person
+        name="Amy"
+        photo="./amy.jpg"
+        quote="I believe in you, cuties!"
+        superlative="Most Likely to Be an Actual Superhero"
+      >
+        <section
+          className="person--card"
+        >
+          <img
+            alt="portrait"
+            src="./amy.jpg"
+          />
+          <h3
+            className="person__name"
+          >
+            Amy
+          </h3>
+          <p
+            className="person__quote"
+          >
+            I believe in you, cuties!
+          </p>
+          <p
+            className="person__superlative"
+          >
+            Most Likely to Be an Actual Superhero
+          </p>
+        </section>
+      </Person>
+    </div>
+  </div>
+</Cohort>
+`;
